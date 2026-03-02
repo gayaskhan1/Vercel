@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohd Gayasuddin Khan | DevOps Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f172a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h2 {
+    color: #38bdf8;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 100px 8%;
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    margin-top: 20px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.skills-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+}
+
+.social a {
+    margin-right: 20px;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>MGK</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Hi, I'm <span>Mohd Gayasuddin Khan</span></h1>
+    <h3>DevOps Engineer</h3>
+    <p>
+        Results-oriented DevOps Engineer with 5.9 years of IT experience in designing, automating, and managing scalable, high-availability infrastructure.
+        Experienced in Linux system administration, CI/CD pipelines, and infrastructure automation.
+    </p>
+    <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="margin-top:20px; line-height:1.7;">
+        Proficient in RHEL, Ubuntu, CentOS and tools like Ansible, Terraform, Jenkins, Docker, and Git.
+        Strong expertise in infrastructure automation, deployment strategies, and maintaining reliable production environments.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <div class="skill">AWS</div>
+        <div class="skill">Terraform</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Ansible</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>FinTech Infrastructure Automation Project</h3>
+        <p style="margin-top:15px; line-height:1.6;">
+            Designed and deployed a highly available FinTech infrastructure on AWS using Terraform and Kubernetes.
+            Implemented CI/CD pipelines using Jenkins and Docker for automated deployments.
+            Configured monitoring and logging for production reliability.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p style="margin-top:20px;">Email: khangasuddin98@gmail.com</p>
+
+    <div class="social" style="margin-top:20px;">
+        <a href="https://www.linkedin.com/in/mohd-gayasuddin-khan-59771a152/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/gayaskhan1" target="_blank">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Mohd Gayasuddin Khan | DevOps Engineer
+</footer>
+
+</body>
+</html>
